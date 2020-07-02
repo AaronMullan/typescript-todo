@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { TodoList } from './TodoList';
 import { AddTodoForm } from './AddTodoForm';
 
-const initialTodos: Array<Todo> = [{text: 'wake the cat', complete: true}, {text: 'frighten birds', complete: false}]
+const initialTodos: Array<Todo> = [{text: 'make todo app', complete: true}, {text: 'give it nice styles', complete: false}]
 
 const App: React.FC = () => {
   const [todos, setTodos] = useState(initialTodos);
